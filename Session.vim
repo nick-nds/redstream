@@ -11,15 +11,17 @@ set shortmess=aoO
 badd +1 ~/projects/redstream.test
 badd +9 .gitignore
 badd +13 docker-compose.yml
-badd +16 src/routes/web.php
+badd +17 src/routes/web.php
 badd +15 src/.env
 badd +1 ~/projects/bookland.test/src/.env
 badd +0 src/public/tailwind/dashboard/dashboard.html
 badd +22 src/resources/views/components/admin/master.blade.php
-badd +3 src/resources/views/dashboard.blade.php
-badd +0 src/resources/views/dashboard.bak
+badd +129 src/resources/views/dashboard.blade.php
+badd +2 src/resources/views/dashboard.bak
 badd +6 src/resources/views/components/admin/header.blade.php
 badd +19 src/webpack.mix.js
+badd +16 src/resources/views/vendor/jetstream/components/dropdown.blade.php
+badd +1 .env
 argglobal
 %argdel
 $argadd ~/projects/redstream.test
@@ -187,196 +189,236 @@ normal! zo
 normal! zo
 82
 normal! zo
-83
-normal! zo
+82
+normal! zc
 86
 normal! zo
-87
-normal! zo
+86
+normal! zc
 90
 normal! zo
-91
-normal! zo
+90
+normal! zc
 94
 normal! zo
-95
-normal! zo
+94
+normal! zc
 98
 normal! zo
-99
-normal! zo
+98
+normal! zc
 102
 normal! zo
-103
-normal! zo
+102
+normal! zc
 111
 normal! zo
 112
 normal! zo
 113
 normal! zo
-113
+115
 normal! zo
-114
+121
 normal! zo
-117
+122
 normal! zo
-125
-normal! zo
-126
-normal! zo
-126
+122
 normal! zc
-125
-normal! zc
-140
+127
+normal! zo
+139
 normal! zo
 141
 normal! zo
-142
-normal! zo
-143
-normal! zo
-143
-normal! zc
-142
-normal! zc
 141
-normal! zc
-156
 normal! zo
-156
+141
+normal! zo
+141
+normal! zo
+141
+normal! zo
+146
+normal! zo
+146
+normal! zo
+146
+normal! zo
+146
+normal! zo
+146
+normal! zo
+148
+normal! zo
+149
+normal! zo
+150
+normal! zo
+151
+normal! zo
+152
+normal! zo
+153
+normal! zo
+154
 normal! zc
-140
+157
 normal! zc
-117
+153
 normal! zc
-114
+161
+normal! zo
+162
 normal! zc
+161
+normal! zc
+152
+normal! zc
+166
+normal! zo
+168
+normal! zc
+171
+normal! zc
+166
+normal! zc
+151
+normal! zc
+150
+normal! zc
+149
+normal! zc
+178
+normal! zo
+179
+normal! zo
+180
+normal! zo
 181
 normal! zo
 182
 normal! zo
 183
-normal! zo
-185
-normal! zo
+normal! zc
 186
-normal! zo
-187
-normal! zo
-188
-normal! zo
-189
-normal! zo
+normal! zc
+182
+normal! zc
 190
 normal! zo
 191
 normal! zc
-194
-normal! zc
 190
 normal! zc
-198
+181
+normal! zc
+196
 normal! zo
-199
+197
 normal! zc
-198
+200
 normal! zc
-189
+196
 normal! zc
-203
+180
+normal! zc
+179
+normal! zc
+178
+normal! zc
+207
 normal! zo
-205
-normal! zc
 208
-normal! zc
-203
-normal! zc
-188
-normal! zc
-187
-normal! zc
-186
+normal! zo
+209
+normal! zo
+210
+normal! zo
+211
+normal! zo
+212
 normal! zc
 215
-normal! zo
-216
-normal! zo
-217
-normal! zo
-218
-normal! zo
+normal! zc
+211
+normal! zc
 219
 normal! zo
 220
 normal! zc
-223
-normal! zc
 219
 normal! zc
-227
+210
+normal! zc
+225
 normal! zo
-228
+226
 normal! zc
-227
+229
 normal! zc
-218
+225
 normal! zc
-233
+209
+normal! zc
+208
+normal! zc
+207
+normal! zc
+236
 normal! zo
-234
-normal! zc
 237
-normal! zc
-233
-normal! zc
-217
-normal! zc
-216
-normal! zc
-215
+normal! zo
+238
+normal! zo
+239
+normal! zo
+240
+normal! zo
+241
 normal! zc
 244
-normal! zo
-245
-normal! zo
-246
-normal! zo
-247
-normal! zo
+normal! zc
+240
+normal! zc
 248
 normal! zo
 249
 normal! zc
-252
-normal! zc
 248
 normal! zc
-256
+239
+normal! zc
+254
 normal! zo
-257
+255
 normal! zc
-256
+258
 normal! zc
-247
+254
 normal! zc
-262
+238
+normal! zc
+237
+normal! zc
+236
+normal! zc
+148
+normal! zc
+146
+normal! zc
+146
+normal! zc
+146
+normal! zc
+269
 normal! zo
-263
-normal! zc
-266
-normal! zc
-262
-normal! zc
-246
-normal! zc
-245
-normal! zc
-244
-normal! zc
-273
+270
 normal! zo
+271
+normal! zo
+272
+normal! zc
 274
 normal! zo
 275
@@ -387,545 +429,482 @@ normal! zo
 normal! zo
 278
 normal! zc
-281
+280
+normal! zc
+283
 normal! zc
 277
 normal! zc
-285
-normal! zo
-286
-normal! zc
-285
-normal! zc
 276
-normal! zc
-291
-normal! zo
-292
-normal! zc
-295
-normal! zc
-291
 normal! zc
 275
 normal! zc
+289
+normal! zo
+291
+normal! zc
+289
+normal! zc
 274
 normal! zc
-273
+271
 normal! zc
-185
+297
+normal! zo
+298
 normal! zc
-183
-normal! zc
-182
-normal! zc
-181
+300
+normal! zo
+301
+normal! zo
+302
+normal! zo
+303
+normal! zo
+304
 normal! zc
 306
-normal! zo
-307
-normal! zo
-308
-normal! zo
+normal! zc
 309
 normal! zc
-311
-normal! zo
-312
-normal! zo
-313
-normal! zo
-314
-normal! zo
-315
+303
 normal! zc
+302
+normal! zc
+301
+normal! zc
+315
+normal! zo
 317
 normal! zc
-320
+315
 normal! zc
-314
+300
 normal! zc
-313
+297
 normal! zc
-312
+270
 normal! zc
+324
+normal! zo
+325
+normal! zo
 326
 normal! zo
+327
+normal! zo
 328
+normal! zo
+329
+normal! zo
+330
 normal! zc
-326
-normal! zc
-311
-normal! zc
-308
+329
 normal! zc
 334
 normal! zo
 335
 normal! zc
-337
-normal! zo
-338
-normal! zo
 339
-normal! zo
-340
-normal! zo
-341
-normal! zc
-343
-normal! zc
-346
-normal! zc
-340
-normal! zc
-339
-normal! zc
-338
-normal! zc
-352
-normal! zo
-354
-normal! zc
-352
-normal! zc
-337
 normal! zc
 334
 normal! zc
-307
+328
 normal! zc
-361
+327
+normal! zc
+345
 normal! zo
-362
+347
 normal! zo
-363
+348
 normal! zo
+349
+normal! zo
+350
+normal! zc
+353
+normal! zc
+356
+normal! zc
+359
+normal! zc
+349
+normal! zc
+348
+normal! zc
 364
 normal! zo
 365
 normal! zo
 366
-normal! zo
-367
 normal! zc
-366
+369
 normal! zc
-371
-normal! zo
 372
 normal! zc
-376
-normal! zc
-371
+375
 normal! zc
 365
 normal! zc
-364
+380
+normal! zo
+381
 normal! zc
-382
-normal! zo
 384
-normal! zo
-385
-normal! zo
-386
-normal! zo
+normal! zc
 387
 normal! zc
 390
 normal! zc
-393
+380
 normal! zc
+395
+normal! zo
 396
 normal! zc
-386
-normal! zc
-385
-normal! zc
-401
-normal! zo
-402
-normal! zo
-403
-normal! zc
-406
-normal! zc
-409
-normal! zc
-412
+399
 normal! zc
 402
 normal! zc
-417
+405
+normal! zc
+395
+normal! zc
+410
 normal! zo
-418
+411
 normal! zc
-421
-normal! zc
-424
-normal! zc
-427
+414
 normal! zc
 417
+normal! zc
+420
+normal! zc
+410
+normal! zc
+425
+normal! zo
+426
+normal! zc
+429
 normal! zc
 432
+normal! zc
+435
+normal! zc
+425
+normal! zc
+364
+normal! zc
+347
+normal! zc
+345
+normal! zc
+326
+normal! zc
+325
+normal! zc
+445
 normal! zo
-433
-normal! zc
-436
-normal! zc
-439
-normal! zc
-442
-normal! zc
-432
-normal! zc
+446
+normal! zo
 447
 normal! zo
 448
+normal! zo
+449
+normal! zo
+450
 normal! zc
-451
+449
+normal! zc
+454
+normal! zo
+455
+normal! zc
+459
 normal! zc
 454
 normal! zc
-457
+448
 normal! zc
 447
 normal! zc
-462
+465
 normal! zo
-463
+467
+normal! zo
+468
+normal! zo
+469
+normal! zo
+470
 normal! zc
-466
+473
+normal! zc
+476
 normal! zc
 469
 normal! zc
-472
-normal! zc
-462
-normal! zc
-401
-normal! zc
-384
-normal! zc
-382
-normal! zc
-363
-normal! zc
-362
+468
 normal! zc
 482
 normal! zo
 483
 normal! zo
 484
-normal! zo
-485
-normal! zo
-486
-normal! zo
+normal! zc
 487
 normal! zc
-486
-normal! zc
+490
+normal! zo
 491
 normal! zo
-492
+493
+normal! zo
+494
+normal! zo
+495
 normal! zc
-496
+494
+normal! zc
+493
 normal! zc
 491
 normal! zc
-485
+490
 normal! zc
-484
+483
 normal! zc
-502
-normal! zo
 504
 normal! zo
 505
-normal! zo
-506
-normal! zo
-507
 normal! zc
-510
+508
 normal! zc
-513
+511
+normal! zo
+512
+normal! zo
+514
+normal! zo
+515
+normal! zo
+516
 normal! zc
-506
+515
 normal! zc
-505
+514
 normal! zc
-519
-normal! zo
-520
-normal! zo
-521
+512
 normal! zc
-524
+511
 normal! zc
-527
+504
+normal! zc
+525
 normal! zo
-528
+526
+normal! zc
+529
+normal! zc
+532
 normal! zo
-530
+533
 normal! zo
-531
+535
 normal! zo
+536
+normal! zo
+537
+normal! zc
+536
+normal! zc
+535
+normal! zc
+533
+normal! zc
 532
 normal! zc
-531
+525
 normal! zc
-530
-normal! zc
-528
-normal! zc
-527
-normal! zc
-520
-normal! zc
-541
+546
 normal! zo
-542
+547
 normal! zc
-545
+550
 normal! zc
-548
+553
 normal! zo
-549
+554
 normal! zo
-551
+556
 normal! zo
-552
+557
 normal! zo
+558
+normal! zc
+557
+normal! zc
+556
+normal! zc
+554
+normal! zc
 553
 normal! zc
-552
+546
 normal! zc
-551
-normal! zc
-549
-normal! zc
-548
-normal! zc
-541
-normal! zc
-562
+567
 normal! zo
-563
+568
 normal! zc
-566
+571
 normal! zc
-569
+574
 normal! zo
-570
+575
 normal! zo
-572
+577
 normal! zo
-573
+578
 normal! zo
+579
+normal! zc
+578
+normal! zc
+577
+normal! zc
+575
+normal! zc
 574
 normal! zc
-573
+567
 normal! zc
-572
+482
 normal! zc
-570
+467
 normal! zc
-569
+465
 normal! zc
-562
+446
 normal! zc
-583
-normal! zo
-584
+445
 normal! zc
-587
+324
 normal! zc
-590
-normal! zo
-591
-normal! zo
-593
-normal! zo
 594
 normal! zo
+595
+normal! zo
+597
+normal! zo
+598
+normal! zo
+599
+normal! zo
+601
+normal! zc
+604
+normal! zc
+599
+normal! zc
+598
+normal! zc
+609
+normal! zo
+610
+normal! zo
+611
+normal! zo
+612
+normal! zc
+615
+normal! zc
+611
+normal! zc
+619
+normal! zo
+620
+normal! zc
+623
+normal! zc
+619
+normal! zc
+627
+normal! zo
+628
+normal! zc
+631
+normal! zc
+627
+normal! zc
+635
+normal! zo
+636
+normal! zc
+639
+normal! zc
+635
+normal! zc
+610
+normal! zc
+609
+normal! zc
+597
+normal! zc
 595
 normal! zc
 594
 normal! zc
-593
+269
 normal! zc
-591
-normal! zc
-590
-normal! zc
-583
-normal! zc
-604
-normal! zo
-605
-normal! zc
-608
-normal! zc
-611
-normal! zo
-612
-normal! zo
-614
-normal! zo
-615
-normal! zo
-616
-normal! zc
-615
-normal! zc
-614
-normal! zc
-612
-normal! zc
-611
-normal! zc
-604
-normal! zc
-519
-normal! zc
-504
-normal! zc
-502
-normal! zc
-483
-normal! zc
-482
-normal! zc
-361
-normal! zc
-631
-normal! zo
-632
-normal! zo
-634
-normal! zo
-635
-normal! zo
-636
-normal! zo
-638
-normal! zc
-641
-normal! zc
-636
-normal! zc
-635
-normal! zc
-646
-normal! zo
-647
-normal! zo
-648
-normal! zo
-649
-normal! zc
-652
-normal! zc
-648
-normal! zc
-656
-normal! zo
-657
-normal! zc
-660
-normal! zc
-656
-normal! zc
-664
-normal! zo
-665
-normal! zc
-668
-normal! zc
-664
-normal! zc
-672
-normal! zo
-673
-normal! zc
-676
-normal! zc
-672
-normal! zc
-647
-normal! zc
-646
-normal! zc
-634
-normal! zc
-632
-normal! zc
-631
-normal! zc
-306
-normal! zc
-113
-normal! zc
-114
-normal! zo
-115
-normal! zo
-117
-normal! zo
-118
-normal! zo
-123
-normal! zo
-125
-normal! zo
-126
-normal! zo
-127
-normal! zo
-131
-normal! zo
-138
-normal! zo
-140
-normal! zo
-141
-normal! zo
-142
-normal! zo
-143
-normal! zo
-145
-normal! zo
-152
-normal! zo
-156
-normal! zo
 157
 normal! zo
-161
+158
 normal! zo
-165
+172
 normal! zo
-171
+173
 normal! zo
-let s:l = 5 - ((4 * winheight(0) + 20) / 41)
+174
+normal! zo
+175
+normal! zo
+188
+normal! zo
+204
+normal! zo
+206
+normal! zo
+206
+normal! zo
+206
+normal! zo
+206
+normal! zo
+let s:l = 127 - ((19 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 5
-normal! 0159|
+keepjumps 127
+normal! 054|
 lcd ~/projects/redstream.test
 wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 97 + 97) / 195)
 exe 'vert 2resize ' . ((&columns * 97 + 97) / 195)
 tabnext
-edit ~/projects/redstream.test/src/resources/views/dashboard.blade.php
+edit ~/projects/redstream.test/src/.env
 set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd _ | wincmd |
+split
+1wincmd k
+wincmd w
+wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -933,7 +912,64 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe '1resize ' . ((&lines * 20 + 22) / 45)
+exe 'vert 1resize ' . ((&columns * 97 + 97) / 195)
+exe '2resize ' . ((&lines * 20 + 22) / 45)
+exe 'vert 2resize ' . ((&columns * 97 + 97) / 195)
+exe 'vert 3resize ' . ((&columns * 97 + 97) / 195)
 argglobal
+balt ~/projects/redstream.test/.env
+setlocal fdm=indent
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 6 - ((5 * winheight(0) + 10) / 20)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 6
+normal! 016|
+lcd ~/projects/redstream.test
+wincmd w
+argglobal
+if bufexists("~/projects/redstream.test/src/routes/web.php") | buffer ~/projects/redstream.test/src/routes/web.php | else | edit ~/projects/redstream.test/src/routes/web.php | endif
+if &buftype ==# 'terminal'
+  silent file ~/projects/redstream.test/src/routes/web.php
+endif
+balt ~/projects/redstream.test/src/resources/views/vendor/jetstream/components/dropdown.blade.php
+setlocal fdm=indent
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+21
+normal! zo
+21
+normal! zo
+25
+normal! zo
+25
+normal! zo
+let s:l = 15 - ((8 * winheight(0) + 10) / 20)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 15
+normal! 0
+lcd ~/projects/redstream.test
+wincmd w
+argglobal
+if bufexists("~/projects/redstream.test/src/resources/views/dashboard.blade.php") | buffer ~/projects/redstream.test/src/resources/views/dashboard.blade.php | else | edit ~/projects/redstream.test/src/resources/views/dashboard.blade.php | endif
+if &buftype ==# 'terminal'
+  silent file ~/projects/redstream.test/src/resources/views/dashboard.blade.php
+endif
 balt ~/projects/redstream.test/src/resources/views/dashboard.bak
 setlocal fdm=indent
 setlocal fde=0
@@ -944,86 +980,6 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 2
-normal! zo
-1
-normal! zo
--1
-normal! zo
--3
-normal! zo
--5
-normal! zo
--8
-normal! zo
--12
-normal! zo
--17
-normal! zo
--24
-normal! zo
--61
-normal! zo
--99
-normal! zo
--138
-normal! zo
--178
-normal! zo
-2
-normal! zo
-7
-normal! zo
-8
-normal! zo
-11
-normal! zo
-17
-normal! zo
-18
-normal! zo
-19
-normal! zo
-20
-normal! zo
-21
-normal! zo
-22
-normal! zo
-25
-normal! zo
-29
-normal! zo
-30
-normal! zo
-35
-normal! zo
-36
-normal! zo
-39
-normal! zo
-46
-normal! zo
-47
-normal! zo
-48
-normal! zo
-49
-normal! zo
-50
-normal! zo
-51
-normal! zo
-54
-normal! zo
-58
-normal! zo
-59
-normal! zo
-64
-normal! zo
-65
-normal! zo
-68
 normal! zo
 3
 normal! zo
@@ -1107,8 +1063,6 @@ normal! zo
 normal! zo
 89
 normal! zo
-93
-normal! zo
 96
 normal! zo
 97
@@ -1131,15 +1085,9 @@ normal! zo
 normal! zo
 115
 normal! zo
-119
-normal! zo
 118
 normal! zo
-125
-normal! zo
-127
-normal! zo
-4
+5
 normal! zc
 129
 normal! zo
@@ -1210,36 +1158,6 @@ normal! zo
 198
 normal! zo
 201
-normal! zo
-205
-normal! zo
-206
-normal! zo
-209
-normal! zo
-212
-normal! zo
-215
-normal! zo
-220
-normal! zo
-221
-normal! zo
-224
-normal! zo
-227
-normal! zo
-230
-normal! zo
-235
-normal! zo
-236
-normal! zo
-239
-normal! zo
-242
-normal! zo
-245
 normal! zo
 204
 normal! zo
@@ -1369,22 +1287,6 @@ normal! zo
 normal! zo
 371
 normal! zo
-377
-normal! zo
-378
-normal! zo
-381
-normal! zo
-384
-normal! zo
-385
-normal! zo
-387
-normal! zo
-388
-normal! zo
-389
-normal! zo
 378
 normal! zo
 379
@@ -1412,8 +1314,6 @@ normal! zo
 406
 normal! zo
 407
-normal! zo
-414
 normal! zo
 420
 normal! zo
@@ -1449,14 +1349,20 @@ normal! zo
 normal! zo
 129
 normal! zc
-let s:l = 129 - ((128 * winheight(0) + 20) / 41)
+let s:l = 127 - ((126 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 129
-normal! 01|
+keepjumps 127
+normal! 09|
 lcd ~/projects/redstream.test
-tabnext 2
+wincmd w
+exe '1resize ' . ((&lines * 20 + 22) / 45)
+exe 'vert 1resize ' . ((&columns * 97 + 97) / 195)
+exe '2resize ' . ((&lines * 20 + 22) / 45)
+exe 'vert 2resize ' . ((&columns * 97 + 97) / 195)
+exe 'vert 3resize ' . ((&columns * 97 + 97) / 195)
+tabnext 1
 set stal=1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0&& getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
